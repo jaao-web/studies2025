@@ -13,6 +13,18 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
+        //ex007();
+
+        //ex006();
+
+        //ex005();
+
+        //ex004Forms();
+
+        //ex003Forms();
+    }
+
+    private static void ex007() {
         Car car = new Car(8, "Base car");
         System.out.println(car.startEngine());
         System.out.println(car.accelerate());
@@ -32,14 +44,6 @@ public class Main {
         System.out.println(holden.startEngine());
         System.out.println(holden.accelerate());
         System.out.println(holden.brake());
-
-        //ex006();
-
-        //ex005();
-
-        //ex004Forms();
-
-        //ex003Forms();
     }
 
     private static void ex006() {
