@@ -1,4 +1,4 @@
-package ex009lists;
+package ex009lists.playlist;
 
 public class Song {
     private String title;

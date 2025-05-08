@@ -1,4 +1,4 @@
-package ex009lists;
+package ex009lists.phone;
 
 public class Contact {
     private String name;

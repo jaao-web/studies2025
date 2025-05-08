@@ -1,4 +1,4 @@
-package ex009lists;
+package ex009lists.playlist;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
