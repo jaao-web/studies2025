@@ -14,6 +14,12 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
+        System.out.println(test(10));
+        System.out.println(test(11));
+
+        fibonacci();
+
+
         //ex009Bank();
 
         //ex007();
@@ -25,6 +31,34 @@ public class Main {
         //ex004Forms();
 
         //ex003Forms();
+    }
+
+    private static void fibonacci() {
+        int[] fibonacci = new int[10];
+
+        // Os 2 primeiros números
+        fibonacci[0] = 0;
+        fibonacci[1] = 1;
+
+        // Completa a sequencia
+        for (int i = 2; i < 10; i++) {
+            fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+        }
+
+        // Printa o array começando do 0
+        for (int i = 0; i < fibonacci.length; i++) {
+            System.out.print(fibonacci[i] + " ");
+        }
+    }
+
+    private static String test(int number) {
+        if (number%2 == 0){
+            //faz alguma coisa se for par
+            return "par";//ao retornar finaliza a função
+
+        }
+        //faz alguma coisa se for ímpar
+        return "ímpar";//ao retornar finaliza a função
     }
 
     private static void ex009Bank() {
